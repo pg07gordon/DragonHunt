@@ -1,0 +1,113 @@
+#header {
+  border-bottom: 2px solid gray;
+  margin: 40px;
+  padding-bottom: 80px;
+}
+
+#body {
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+#name {
+  font-family: Verdana;
+  font-size: 5em;
+  color: grey;
+}
+
+#title {
+  font-family: Verdana;
+  font-size: 2em;
+  font-style: italic;
+  color: grey;
+}
+
+#left { /* Whole left side area */
+  float: left;
+  border-right: 2px solid gray;
+  padding-right: 10px;
+  display: inline-block;
+  height: 800px;
+}
+
+#right { /* Whole right side area */
+  display: inline-block;
+  padding-left: 10px;
+}
+
+/* icon area */
+#icon_man_plus { background-image: url("icons-02.png");}
+#icon_paper { background-image: url("icons-09.png");}
+
+.icons {
+  display: inline-block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+}
+
+.bullets { /* Right Side */
+  color: grey;
+  margin-bottom: 20px;
+  list-style-type: circle;
+  font-size:36px;
+}
+
+.divider {
+  border-bottom: 2px solid gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.date { /* Right Side */
+  float: right;
+  font-size: 16px;
+}
+
+.left_element { /* Container Div */
+  position: fixed;
+  color: grey;
+}
+
+.sub_title_left {
+  letter-spacing: 2px;
+  color: grey;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+
+.left_txt {
+  display: inline-block;
+  width: 120px;
+}
+
+div.sub_title_right {
+  height: 3em;
+  display: flex;
+  align-items: center
+}
+
+span.sub_title_right {
+  font-family: Verdana;
+  letter-spacing: 2px;
+  color: grey;
+  font-size: 24px;
+}
+
+.item_title_1 { /* Right Side */
+  font-style: italic;
+  color: grey;
+  font-size: 16px;
+}
+
+.item_title_2 { /* Right Side */
+  font-weight: bold;
+  color: grey;
+  font-size: 16px;
+}
+
+.item_txt { /* Right Side */
+  color: grey;
+  font-size: 14px;
+}

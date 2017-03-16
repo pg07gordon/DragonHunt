@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Dragons Hunt</title>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.1.10/buzz.min.js"></script>
+		
+		<style>
+			#feedback { font-size: 1.4em; }
+			#selectable .ui-selecting { background: #FECA40; }
+			#selectable .ui-selected { background: #F39814; color: white; }
+			#selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+			#selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
+		</style>
+		
+	</head>
+	<body>
+		<div id="logo" class=""></div>
+			<div id="game-msg" class="centered hide">
+				<div class="padding-block"></div>
+				<!-- Game Msg here, Error, Win, Lose-->
+				<button id="reload-button" class="button">Play Again?</button>
+				<div class="padding-block"></div>
+			</div>
+		
+			<div id="main-menu" class="menu centered">
+				<div class="padding-block"></div>
+				<div class="padding-block"></div>
+				<button id="start-button" class="button">Single Player</button>
+				<div class="padding-block"></div>
+				<div class="padding-block"></div>
+				<button id="bio-button" class="button">My Bio</button>
+				<div class="padding-block"></div>
+				<div class="padding-block"></div>
+				<div class="textwhite blueback">Gordon Niemann - PG07</div>
+				<div class="textwhite blueback">Copyright 2016</div>
+			</div>
+
+		<div id="sp-game" class="hide centered">
+			<div id="game-stats" class="centered">	
+				<div id="turn"></div>
+				<div id="remaining"></div>
+				<div id="hits"></div>
+				<div id="miss"></div>
+				<div id="found"></div>
+				<div id="message"></div>
+			</div>
+			
+			<div class="padding-block"></div>
+		
+			<div id="game-body" class="centered">
+				<div id="play-area" class="">
+					<div id="player-grid"><!-- Main Map (Grid)--></div>
+				</div>
+			</div>
+			<div class="padding-block"></div>
+			<div class="textwhite">Gordon Niemann - PG07</div>
+			<div class="textwhite">Copyright 2016</div>
+		</div>
+
+		<section>
+			<script type="text/javascript" src="js/Dragons.js"></script>
+			<script type="text/javascript" src="js/Interface.js"></script>
+			<script type="text/javascript" src="js/Sound.js"></script>
+			<script type="text/javascript" src="js/Map.js"></script>
+			<script type="text/javascript" src="js/Game.js"></script>
+		</section>
+
+	</body>
+</html>
